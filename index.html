@@ -1031,6 +1031,56 @@
         align-items:flex-start;
       }
     }
+    .partner-actions{
+  display:flex;
+  flex-wrap:wrap;
+  gap:12px;
+  margin-top:18px;
+}
+
+.btn-whatsapp{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:10px;
+  min-height:52px;
+  padding:0 22px;
+  border-radius:999px;
+  font-weight:800;
+  color:#fff;
+  background:var(--whatsapp);
+  box-shadow:0 14px 30px rgba(37, 211, 102, 0.20);
+  transition:transform .18s ease, box-shadow .18s ease;
+}
+
+.btn-whatsapp:hover{
+  transform:translateY(-2px);
+  box-shadow:0 18px 36px rgba(37, 211, 102, 0.28);
+  }
+  .services-grid{
+  display:grid;
+  grid-template-columns:repeat(6, 1fr);
+  gap:22px;
+}
+
+.services-grid .service-card{
+  grid-column:span 2;
+  width:100%;
+  max-width:340px;
+}
+
+.services-grid .service-card:nth-child(4){
+  grid-column:2 / span 2;
+}
+
+.services-grid .service-card:nth-child(5){
+  grid-column:4 / span 2;
+}
+
+.services-grid .service-card{
+  width:100%;
+  max-width:340px;
+}
   </style>
 </head>
 <body>
@@ -1060,9 +1110,11 @@
       <div class="hero-content">
         <span class="eyebrow">Especialista em beleza em Igarapé - MG</span>
 
-        <h1>
-          Loiros, transformação capilar e beleza que <span class="highlight">valoriza sua autoestima</span>
-        </h1>
+       <h1>
+  Realçando <br> ainda mais,<br>
+  a beleza que existe em você 
+  <span class="emoji">✨</span>
+</h1>
 
         <p>
           Atendimento profissional em um espaço elegante, acolhedor e pensado para mulheres que desejam se sentir ainda mais bonitas,
@@ -1180,7 +1232,7 @@
         <span class="section-tag">Serviços</span>
         <h2>Especialidades pensadas para valorizar sua beleza com elegância</h2>
         <p>
-          Cada serviço foi apresentado de forma mais estratégica para vender melhor, transmitir qualidade e ajudar a visitante a entender o valor do atendimento.
+        
         </p>
       </div>
 
@@ -1200,15 +1252,15 @@
 
         <article class="service-card">
           <img src="sobrancelha-especialidade.jpg" alt="Serviço de design de sobrancelhas" />
-          <h3>Design de Sobrancelhas</h3>
-          <p>
-            Técnica pensada para harmonizar o olhar, respeitar o formato do rosto e destacar sua expressão com naturalidade e equilíbrio.
-          </p>
-          <ul>
-            <li>Harmonização do olhar</li>
-            <li>Acabamento delicado e natural</li>
-            <li>Mais definição sem perder leveza</li>
-          </ul>
+          <h3>Micropigmentação de Sobrancelhas</h3>
+<p>
+  Técnica que valoriza o formato das sobrancelhas com efeito mais definido, harmônico e natural, realçando a expressão do rosto com elegância.
+</p>
+<ul>
+  <li>Sobrancelhas mais definidas e harmônicas</li>
+  <li>Efeito natural e sofisticado</li>
+  <li>Valorização do olhar com mais expressão</li>
+</ul>
         </article>
 
         <article class="service-card">
@@ -1223,6 +1275,41 @@
             <li>Resultado sutil e elegante</li>
           </ul>
         </article>
+      <article class="service-card">
+  <img src="unha.jpg" alt="Serviço de unhas" />
+  <h3>Nail Design</h3>
+  <p>
+    Serviços de unhas com acabamento sofisticado, cuidado nos detalhes e resultados que valorizam ainda mais sua beleza.
+  </p>
+
+  <div class="partner-actions">
+    <a class="btn-whatsapp" href="https://wa.me/553173062867?text=Olá,%20vim%20pelo%20site%20do%20JR%20Espaço%20da%20Beleza%20e%20quero%20saber%20mais%20sobre%20unhas.">
+      WhatsApp
+    </a>
+
+    <a class="btn-instagram" href="https://www.instagram.com/mariaisabelle__nails" target="_blank">
+      Instagram
+    </a>
+  </div>
+</article>
+
+<article class="service-card">
+  <img src="cilios.jpg" alt="Serviço de cílios e sobrancelhas" />
+  <h3>Cílios e Sobrancelhas</h3>
+  <p>
+    Realce do olhar com técnicas modernas e acabamento delicado, trazendo mais expressão e elegância para o seu rosto.
+  </p>
+
+  <div class="partner-actions">
+    <a class="btn-whatsapp" href="https://wa.me/5531999941843?text=Olá,%20vim%20pelo%20site%20do%20JR%20Espaço%20da%20Beleza%20e%20quero%20saber%20mais%20sobre%20cílios%20e%20sobrancelhas.">
+      WhatsApp
+    </a>
+
+    <a class="btn-instagram" href="https://www.instagram.com/studio__leticiaduarte" target="_blank">
+      Instagram
+    </a>
+  </div>
+</article>
       </div>
 
       <div class="cta-strip">
@@ -1284,27 +1371,27 @@
         <span class="section-tag">Vídeos</span>
         <h2>Brilho, movimento e resultado ao vivo</h2>
         <p>
-          Esta parte já está pronta. Quando você quiser, basta deixar os 3 vídeos com os nomes certos dentro da pasta do projeto.
+       
         </p>
       </div>
 
       <div class="videos-grid">
         <div class="video-card">
-          <video controls preload="metadata" poster="depois1.png">
+          <video controls preload="metadata">
             <source src="video1.mp4" type="video/mp4" />
             Seu navegador não suporta vídeo.
           </video>
         </div>
 
         <div class="video-card">
-          <video controls preload="metadata" poster="depois2.png">
+          <video controls preload="metadata">
             <source src="video2.mp4" type="video/mp4" />
             Seu navegador não suporta vídeo.
           </video>
         </div>
 
         <div class="video-card">
-          <video controls preload="metadata" poster="depois3.png">
+          <video controls preload="metadata">
             <source src="video3.mp4" type="video/mp4" />
             Seu navegador não suporta vídeo.
           </video>
@@ -1319,7 +1406,7 @@
         <span class="section-tag">Formação profissional</span>
         <h2>Além de transformar clientes, também formamos profissionais</h2>
         <p>
-          Mantive a seção de cursos, mas com visual mais refinado e sem roubar o foco principal do site, que é captar clientes para o salão.
+        
         </p>
       </div>
 
@@ -1359,7 +1446,7 @@
         <span class="section-tag">Contato</span>
         <h2>Agende seu horário e fale diretamente pelo WhatsApp</h2>
         <p>
-          Um fechamento forte no final do site ajuda muito na conversão. Aqui a cliente encontra as informações principais e já pode chamar com facilidade.
+         
         </p>
       </div>
 
@@ -1372,7 +1459,7 @@
 
           <ul class="contact-list">
             <li><strong>WhatsApp:</strong> (31) 99781-5517</li>
-            li><strong>Endereço:</strong> Rua Cristiano Machado, 435 – Centro</li>
+            <strong>Endereço:</strong> Rua Cristiano Machado, 435 – Centro</li>
             <li><strong>Cidade:</strong> Igarapé – MG</li>
           </ul>
 
