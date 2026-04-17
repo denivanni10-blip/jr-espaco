@@ -1,0 +1,1590 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JR Espaço da Beleza | Loiros, Transformação Capilar e Beleza em Igarapé - MG</title>
+  <meta
+    name="description"
+    content="JR Espaço da Beleza em Igarapé - MG. Especialista em loiros, transformação capilar, design de sobrancelhas e microlabial. Agende seu horário pelo WhatsApp."
+  />
+  <meta name="theme-color" content="#efe5d6" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Montserrat:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+
+  <style>
+    :root{
+      --bg:#f7f0e7;
+      --bg-soft:#fbf7f1;
+      --surface:#fffaf4;
+      --surface-2:#f3e7d8;
+      --surface-3:#eadac8;
+      --text:#2e241d;
+      --text-soft:#6f5e51;
+      --title:#241a14;
+      --line:#dbc8b4;
+      --gold:#b88a4a;
+      --gold-dark:#9b7038;
+      --gold-soft:#ead3ad;
+      --accent:#7f5b3f;
+      --shadow:0 18px 45px rgba(87, 59, 31, 0.10);
+      --shadow-soft:0 10px 28px rgba(87, 59, 31, 0.08);
+      --radius-xl:28px;
+      --radius-lg:22px;
+      --radius-md:16px;
+      --radius-sm:12px;
+      --max:1180px;
+      --whatsapp:#25d366;
+    }
+.btn-instagram{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:10px;
+  min-height:52px;
+  padding:0 24px;
+  border-radius:999px;
+  font-weight:800;
+  color:#fff;
+  background:linear-gradient(135deg, #d62976, #962fbf, #4f5bd5);
+  box-shadow:0 14px 32px rgba(150, 47, 191, 0.25);
+  transition:transform .18s ease, box-shadow .18s ease;
+}
+
+.btn-instagram:hover{
+  transform:translateY(-2px);
+  box-shadow:0 18px 38px rgba(150, 47, 191, 0.35);
+}
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+    }
+
+    html{
+      scroll-behavior:smooth;
+    }
+
+    body{
+      font-family:'Montserrat',sans-serif;
+      background:
+        radial-gradient(circle at top left, rgba(255,255,255,.45), transparent 32%),
+        linear-gradient(180deg, #fbf7f1 0%, #f6eee4 40%, #f8f1e8 100%);
+      color:var(--text);
+      line-height:1.6;
+      -webkit-font-smoothing:antialiased;
+      text-rendering:optimizeLegibility;
+    }
+
+    img{
+      display:block;
+      max-width:100%;
+      border-radius:var(--radius-md);
+    }
+
+    a{
+      color:inherit;
+      text-decoration:none;
+    }
+
+    button{
+      font:inherit;
+    }
+
+    .container{
+      width:min(100% - 32px, var(--max));
+      margin:auto;
+    }
+
+    h1,h2,h3,h4{
+      font-family:'Cormorant Garamond',serif;
+      color:var(--title);
+      line-height:1.02;
+      letter-spacing:-0.02em;
+    }
+
+    p{
+      color:var(--text-soft);
+    }
+
+    .topbar{
+      position:sticky;
+      top:0;
+      z-index:1000;
+      backdrop-filter:blur(16px);
+      background:rgba(250, 245, 238, 0.88);
+      border-bottom:1px solid rgba(184, 138, 74, 0.12);
+    }
+
+    .nav{
+      min-height:76px;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:24px;
+    }
+
+    .brand{
+      display:flex;
+      align-items:center;
+      gap:12px;
+      min-width:max-content;
+    }
+
+    .brand-mark{
+      width:42px;
+      height:42px;
+      border-radius:50%;
+      display:grid;
+      place-items:center;
+      background:linear-gradient(135deg, var(--gold-soft), #f6e8d2);
+      color:var(--gold-dark);
+      font-weight:800;
+      font-size:.95rem;
+      box-shadow:var(--shadow-soft);
+      border:1px solid rgba(184,138,74,.18);
+    }
+
+    .brand-text{
+      display:flex;
+      flex-direction:column;
+      line-height:1.05;
+    }
+
+    .brand-text strong{
+      font-size:1.15rem;
+      color:var(--title);
+      letter-spacing:.01em;
+    }
+
+    .brand-text span{
+      font-size:.78rem;
+      color:var(--text-soft);
+      text-transform:uppercase;
+      letter-spacing:.18em;
+    }
+
+    .nav-links{
+      display:flex;
+      align-items:center;
+      justify-content:flex-end;
+      gap:20px;
+      flex-wrap:wrap;
+    }
+
+    .nav-links a{
+      font-size:.92rem;
+      font-weight:700;
+      color:#59483c;
+      position:relative;
+      transition:.22s ease;
+    }
+
+    .nav-links a:hover{
+      color:var(--gold-dark);
+    }
+
+    .nav-links a::after{
+      content:"";
+      position:absolute;
+      left:0;
+      bottom:-6px;
+      width:0;
+      height:2px;
+      background:linear-gradient(90deg, var(--gold), var(--gold-soft));
+      transition:width .22s ease;
+      border-radius:999px;
+    }
+
+    .nav-links a:hover::after{
+      width:100%;
+    }
+
+    .nav-cta{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      padding:11px 18px;
+      border-radius:999px;
+      background:linear-gradient(135deg, var(--gold), #d1a568);
+      color:#fff;
+      font-size:.9rem;
+      font-weight:800;
+      box-shadow:var(--shadow-soft);
+      transition:transform .18s ease, box-shadow .18s ease;
+    }
+
+    .nav-cta:hover,
+    .btn:hover,
+    .btn-secondary:hover,
+    .cta-strip .btn:hover{
+      transform:translateY(-2px);
+      box-shadow:0 14px 30px rgba(155, 112, 56, 0.18);
+    }
+
+    .hero{
+  position:relative;
+  min-height:calc(100vh - 76px);
+  display:flex;
+  align-items:center;
+  overflow:hidden;
+  padding:72px 0 60px;
+  background:url('capa.png') center center / cover no-repeat;
+}
+
+.hero::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(32, 23, 17, 0) 0%,
+      rgba(32, 23, 17, 0) 42%,
+      rgba(32, 23, 17, 0.10) 55%,
+      rgba(32, 23, 17, 0.26) 72%,
+      rgba(32, 23, 17, 0.42) 100%
+    ),
+    linear-gradient(
+      to right,
+      rgba(32, 23, 17, 0.42) 0%,
+      rgba(32, 23, 17, 0.20) 28%,
+      rgba(32, 23, 17, 0.06) 48%,
+      rgba(32, 23, 17, 0) 65%
+    );
+  pointer-events:none;
+}
+
+    .hero-content{
+  position:relative;
+  z-index:2;
+  max-width:620px;
+  padding:0;
+  border-radius:0;
+  background:none;
+  border:none;
+  box-shadow:none;
+  backdrop-filter:none;
+}
+
+.eyebrow{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  padding:8px 14px;
+  margin-bottom:18px;
+  border-radius:999px;
+  background:rgba(255,255,255,.16);
+  border:1px solid rgba(255,255,255,.18);
+  color:#fff3e2;
+  font-size:.8rem;
+  font-weight:700;
+  text-transform:uppercase;
+  letter-spacing:.16em;
+  backdrop-filter:blur(4px);
+}
+
+    .hero h1{
+  font-size:clamp(3rem, 6vw, 5.2rem);
+  color:#fffaf4;
+  margin-bottom:18px;
+  max-width:620px;
+  text-shadow:0 4px 18px rgba(0,0,0,0.16);
+}
+
+    .hero h1 .highlight{
+      color:#f1d1a6;
+    }
+
+    .hero p{
+  font-size:1.02rem;
+  color:#f7ede2;
+  max-width:560px;
+  margin-bottom:24px;
+  text-shadow:0 3px 12px rgba(0,0,0,0.14);
+}
+
+    .hero-actions{
+  display:flex;
+  flex-wrap:wrap;
+  gap:14px;
+  align-items:center;
+}
+
+    .btn,
+    .btn-secondary{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      gap:10px;
+      min-height:52px;
+      padding:0 24px;
+      border-radius:999px;
+      font-weight:800;
+      transition:transform .18s ease, box-shadow .18s ease, background .18s ease;
+    }
+
+    .btn{
+      background:linear-gradient(135deg, var(--gold), #d1a568);
+      color:#fff;
+      box-shadow:0 14px 32px rgba(155, 112, 56, 0.18);
+    }
+
+    .btn-secondary{
+      background:rgba(255,255,255,.14);
+      color:#fff;
+      border:1px solid rgba(255,255,255,.18);
+    }
+
+    .hero-trust{
+      display:flex;
+      flex-wrap:wrap;
+      gap:12px;
+    }
+
+    .hero-trust span{
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      padding:10px 14px;
+      border-radius:999px;
+      background:rgba(255,255,255,.12);
+      color:#fff4e7;
+      font-size:.88rem;
+      font-weight:600;
+      border:1px solid rgba(255,255,255,.12);
+    }
+
+    .section{
+      padding:96px 0;
+    }
+
+    .section-header{
+      max-width:760px;
+      margin-bottom:40px;
+    }
+
+    .section-tag{
+      display:inline-block;
+      margin-bottom:10px;
+      padding:8px 14px;
+      border-radius:999px;
+      background:rgba(184, 138, 74, 0.10);
+      color:var(--gold-dark);
+      text-transform:uppercase;
+      letter-spacing:.14em;
+      font-size:.76rem;
+      font-weight:800;
+    }
+
+    .section-header h2{
+      font-size:clamp(2.4rem, 5vw, 4.2rem);
+      margin-bottom:12px;
+    }
+
+    .section-header p{
+      font-size:1rem;
+      max-width:680px;
+    }
+
+    .intro-cards{
+      margin-top:-42px;
+      position:relative;
+      z-index:5;
+    }
+
+    .intro-grid{
+      display:grid;
+      grid-template-columns:repeat(3, 1fr);
+      gap:20px;
+    }
+
+    .intro-card{
+      background:rgba(255,250,244,.92);
+      border:1px solid rgba(184,138,74,.14);
+      border-radius:var(--radius-lg);
+      padding:26px 22px;
+      box-shadow:var(--shadow);
+    }
+
+    .intro-card strong{
+      display:block;
+      font-size:1.05rem;
+      color:var(--title);
+      margin-bottom:6px;
+    }
+
+    .intro-card p{
+      font-size:.95rem;
+    }
+
+    .about-grid{
+      display:grid;
+      grid-template-columns:1.02fr .98fr;
+      gap:40px;
+      align-items:center;
+    }
+
+    .about-image-wrap{
+      position:relative;
+    }
+
+    .about-image{
+      width:100%;
+      height:640px;
+      object-fit:cover;
+      object-position:center top;
+      border-radius:var(--radius-xl);
+      box-shadow:var(--shadow);
+    }
+
+    .about-badge{
+      position:absolute;
+      left:18px;
+      bottom:18px;
+      background:rgba(255,250,244,.95);
+      border:1px solid rgba(184,138,74,.18);
+      padding:14px 16px;
+      border-radius:18px;
+      box-shadow:var(--shadow-soft);
+      max-width:260px;
+    }
+
+    .about-badge strong{
+      display:block;
+      color:var(--title);
+      margin-bottom:4px;
+      font-size:1rem;
+    }
+
+    .about-content{
+      background:rgba(255,250,244, .76);
+      border:1px solid rgba(184,138,74,.12);
+      border-radius:var(--radius-xl);
+      padding:34px;
+      box-shadow:var(--shadow-soft);
+    }
+
+    .about-content p{
+      margin-bottom:16px;
+      font-size:1rem;
+    }
+
+    .about-highlights{
+      display:grid;
+      grid-template-columns:repeat(2, 1fr);
+      gap:14px;
+      margin-top:24px;
+    }
+
+    .highlight-box{
+      background:var(--surface);
+      border:1px solid var(--line);
+      border-radius:18px;
+      padding:16px;
+    }
+
+    .highlight-box strong{
+      display:block;
+      color:var(--title);
+      margin-bottom:6px;
+      font-size:1rem;
+    }
+
+.services-grid{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:22px;
+}
+
+    .service-card{
+      background:linear-gradient(180deg, rgba(255,250,244,0.95), rgba(247,238,227,0.98));
+      border:1px solid rgba(184,138,74,.14);
+      border-radius:var(--radius-xl);
+      padding:18px;
+      box-shadow:var(--shadow-soft);
+      transition:transform .18s ease, box-shadow .18s ease;
+      
+      flex:0 1 320px;
+      width:100%;
+      max-width:320px;
+    }
+
+    .service-card:hover{
+      transform:translateY(-4px);
+      box-shadow:0 20px 34px rgba(87, 59, 31, 0.11);
+    }
+
+    .service-card img{
+      width:100%;
+      height:240px;
+      object-fit:cover;
+      margin-bottom:16px;
+      border-radius:18px;
+    }
+
+    .service-card h3{
+      font-size:2rem;
+      margin-bottom:10px;
+    }
+
+    .service-card p{
+      font-size:.96rem;
+      margin-bottom:14px;
+    }
+
+    .service-card ul{
+      list-style:none;
+      display:grid;
+      gap:8px;
+    }
+
+    .service-card li{
+      color:#5d4f44;
+      font-size:.92rem;
+      padding-left:16px;
+      position:relative;
+    }
+
+    .service-card li::before{
+      content:"•";
+      position:absolute;
+      left:0;
+      top:0;
+      color:var(--gold);
+      font-weight:800;
+    }
+
+    .cta-strip{
+      padding:34px;
+      border-radius:var(--radius-xl);
+      background:
+        linear-gradient(135deg, rgba(199,155,97,.14), rgba(129,91,63,.08)),
+        #fff8ef;
+      border:1px solid rgba(184,138,74,.16);
+      box-shadow:var(--shadow-soft);
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:20px;
+      margin-top:38px;
+    }
+
+    .cta-strip h3{
+      font-size:2rem;
+      margin-bottom:6px;
+    }
+
+    .cta-strip p{
+      max-width:700px;
+    }
+
+    .gallery-grid{
+      display:grid;
+      grid-template-columns:repeat(3, 1fr);
+      gap:22px;
+    }
+
+    .gallery-item{
+      position:relative;
+      overflow:hidden;
+      border-radius:24px;
+      cursor:pointer;
+      border:1px solid rgba(184,138,74,.14);
+      box-shadow:var(--shadow-soft);
+      background:#fff;
+    }
+
+    .gallery-item img{
+      width:100%;
+      height:440px;
+      object-fit:cover;
+      transition:transform .35s ease;
+      border-radius:24px;
+    }
+
+    .gallery-item:hover img{
+      transform:scale(1.04);
+    }
+
+    .gallery-caption{
+      position:absolute;
+      left:0;
+      right:0;
+      bottom:0;
+      padding:20px;
+      background:linear-gradient(180deg, rgba(34,24,17,0) 0%, rgba(34,24,17,.82) 100%);
+      color:#fffaf4;
+    }
+
+    .gallery-caption strong{
+      display:block;
+      font-size:1.12rem;
+      margin-bottom:4px;
+    }
+
+    .gallery-caption span{
+      font-size:.92rem;
+      color:#f0e0cf;
+    }
+
+    .videos-grid{
+      display:grid;
+      grid-template-columns:repeat(3, 1fr);
+      gap:22px;
+    }
+
+    .video-card{
+      background:rgba(255,250,244,0.95);
+      border:1px solid rgba(184,138,74,.14);
+      border-radius:24px;
+      overflow:hidden;
+      box-shadow:var(--shadow-soft);
+    }
+
+    .video-card video{
+      width:100%;
+      height:430px;
+      object-fit:cover;
+      display:block;
+      background:#000;
+    }
+
+    .video-placeholder{
+      height:430px;
+      padding:26px;
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+      text-align:center;
+      background:
+        linear-gradient(180deg, rgba(234,218,200,.55), rgba(247,240,231,.88));
+    }
+
+    .video-placeholder strong{
+      color:var(--title);
+      font-size:1.2rem;
+      margin-bottom:8px;
+    }
+
+    .video-placeholder span{
+      color:var(--gold-dark);
+      font-size:.86rem;
+      text-transform:uppercase;
+      letter-spacing:.14em;
+      font-weight:800;
+      margin-bottom:12px;
+    }
+
+    .course-grid{
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:36px;
+      align-items:center;
+      padding:34px;
+      border-radius:var(--radius-xl);
+      background:linear-gradient(180deg, rgba(255,250,244,0.96), rgba(244,233,220,0.98));
+      border:1px solid rgba(184,138,74,.14);
+      box-shadow:var(--shadow-soft);
+    }
+
+    .course-grid img{
+      width:100%;
+      height:460px;
+      object-fit:cover;
+      border-radius:22px;
+    }
+
+    .course-content h3{
+      font-size:2.6rem;
+      margin-bottom:12px;
+    }
+
+    .course-content p{
+      margin-bottom:14px;
+    }
+
+    .course-points{
+      list-style:none;
+      display:grid;
+      gap:10px;
+      margin:18px 0 22px;
+    }
+
+    .course-points li{
+      padding-left:18px;
+      position:relative;
+      color:#5d4f44;
+    }
+
+    .course-points li::before{
+      content:"•";
+      position:absolute;
+      left:0;
+      top:0;
+      color:var(--gold);
+      font-weight:800;
+    }
+
+    .contact-wrap{
+      display:grid;
+      grid-template-columns:1.1fr .9fr;
+      gap:22px;
+      align-items:stretch;
+    }
+
+    .contact-card,
+    .contact-info{
+      background:rgba(255,250,244,0.96);
+      border:1px solid rgba(184,138,74,.14);
+      border-radius:var(--radius-xl);
+      box-shadow:var(--shadow-soft);
+      padding:32px;
+    }
+
+    .contact-card h3,
+    .contact-info h3{
+      font-size:2.2rem;
+      margin-bottom:10px;
+    }
+
+    .contact-card p{
+      margin-bottom:20px;
+    }
+
+    .contact-list{
+      list-style:none;
+      display:grid;
+      gap:12px;
+      margin-bottom:24px;
+    }
+
+    .contact-list li{
+      color:#5f5146;
+      font-size:.97rem;
+    }
+
+    .contact-list strong{
+      color:var(--title);
+    }
+
+    .contact-actions{
+      display:flex;
+      flex-wrap:wrap;
+      gap:12px;
+    }
+
+    .info-box{
+      padding:16px 18px;
+      border-radius:18px;
+      border:1px solid var(--line);
+      background:var(--bg-soft);
+    }
+
+    .info-box + .info-box{
+      margin-top:14px;
+    }
+
+    .info-box strong{
+      display:block;
+      color:var(--title);
+      margin-bottom:4px;
+    }
+
+    footer{
+      padding:34px 0 48px;
+      border-top:1px solid rgba(184,138,74,.14);
+      margin-top:20px;
+    }
+
+    .footer-wrap{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:18px;
+      flex-wrap:wrap;
+    }
+
+    .footer-brand{
+      color:#4b3c32;
+      font-weight:700;
+    }
+
+    .footer-copy{
+      color:#7a6859;
+      font-size:.93rem;
+    }
+
+    .whatsapp-float{
+      position:fixed;
+      right:18px;
+      bottom:18px;
+      width:62px;
+      height:62px;
+      border-radius:50%;
+      display:grid;
+      place-items:center;
+      background:var(--whatsapp);
+      color:#fff;
+      font-size:1.7rem;
+      box-shadow:0 18px 32px rgba(37, 211, 102, 0.28);
+      z-index:999;
+      transition:transform .18s ease;
+    }
+
+    .whatsapp-float:hover{
+      transform:translateY(-3px);
+    }
+
+    .lightbox{
+      position:fixed;
+      inset:0;
+      background:rgba(21,15,11,.92);
+      display:none;
+      align-items:center;
+      justify-content:center;
+      z-index:2000;
+      padding:30px;
+    }
+
+    .lightbox.active{
+      display:flex;
+    }
+
+    .lightbox-content{
+      position:relative;
+      max-width:1000px;
+      width:100%;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+    }
+
+    .lightbox img{
+      width:auto;
+      max-width:100%;
+      max-height:85vh;
+      object-fit:contain;
+      border-radius:22px;
+      box-shadow:0 18px 48px rgba(0,0,0,.18);
+    }
+
+    .lightbox-btn,
+    .lightbox-close{
+      position:absolute;
+      width:56px;
+      height:56px;
+      border:none;
+      border-radius:50%;
+      cursor:pointer;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      font-size:1.55rem;
+      color:#fff;
+      background:rgba(255,255,255,.16);
+      backdrop-filter:blur(10px);
+      transition:transform .18s ease, background .18s ease;
+    }
+
+    .lightbox-btn:hover,
+    .lightbox-close:hover{
+      transform:scale(1.03);
+      background:rgba(255,255,255,.24);
+    }
+
+    .lightbox-btn.prev{left:8px}
+    .lightbox-btn.next{right:8px}
+    .lightbox-close{top:-72px;right:0}
+
+    .lightbox-label{
+      position:absolute;
+      bottom:-46px;
+      left:50%;
+      transform:translateX(-50%);
+      background:rgba(255,255,255,.14);
+      color:#fff;
+      padding:10px 16px;
+      border-radius:999px;
+      font-size:.9rem;
+      letter-spacing:.04em;
+      white-space:nowrap;
+      backdrop-filter:blur(10px);
+    }
+
+    @media (max-width: 1080px){
+      .intro-grid,
+      .services-grid,
+      .gallery-grid,
+      .videos-grid,
+      .contact-wrap,
+      .course-grid,
+      .about-grid{
+        grid-template-columns:1fr;
+      }
+
+      .cta-strip{
+        flex-direction:column;
+        align-items:flex-start;
+      }
+
+      .hero-content{
+        max-width:760px;
+      }
+
+      .about-image,
+      .course-grid img,
+      .gallery-item img,
+      .video-card video,
+      .video-placeholder{
+        height:420px;
+      }
+    }
+
+    @media (max-width: 720px){
+      .nav{
+        align-items:flex-start;
+        padding:14px 0;
+        min-height:auto;
+        flex-direction:column;
+      }
+
+      .nav-links{
+        gap:14px;
+      }
+
+      .nav-cta{
+        margin-top:4px;
+      }
+
+      .hero{
+        min-height:auto;
+        padding:92px 0 70px;
+        background-position:center;
+      }
+
+      .hero-content{
+        padding:24px;
+      }
+
+      .hero h1{
+        font-size:clamp(2.5rem, 12vw, 4rem);
+      }
+
+      .hero-trust{
+        gap:10px;
+      }
+
+      .hero-trust span{
+        width:100%;
+        justify-content:center;
+      }
+
+      .section{
+        padding:78px 0;
+      }
+
+      .section-header h2{
+        font-size:clamp(2.1rem, 10vw, 3rem);
+      }
+
+      .about-content,
+      .contact-card,
+      .contact-info,
+      .course-grid,
+      .cta-strip{
+        padding:24px;
+      }
+
+      .about-highlights{
+        grid-template-columns:1fr;
+      }
+
+      .about-image,
+      .course-grid img,
+      .gallery-item img,
+      .video-card video,
+      .video-placeholder{
+        height:320px;
+      }
+
+      .service-card img{
+        height:220px;
+      }
+
+      .lightbox{
+        padding:18px;
+      }
+
+      .lightbox-btn.prev{left:0}
+      .lightbox-btn.next{right:0}
+      .lightbox-close{top:-58px}
+      .lightbox-label{
+        bottom:-40px;
+        font-size:.82rem;
+      }
+
+      .footer-wrap{
+        flex-direction:column;
+        align-items:flex-start;
+      }
+    }
+    .partner-actions{
+  display:flex;
+  flex-wrap:wrap;
+  gap:12px;
+  margin-top:18px;
+}
+
+.btn-whatsapp{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:10px;
+  min-height:52px;
+  padding:0 22px;
+  border-radius:999px;
+  font-weight:800;
+  color:#fff;
+  background:var(--whatsapp);
+  box-shadow:0 14px 30px rgba(37, 211, 102, 0.20);
+  transition:transform .18s ease, box-shadow .18s ease;
+}
+
+.btn-whatsapp:hover{
+  transform:translateY(-2px);
+  box-shadow:0 18px 36px rgba(37, 211, 102, 0.28);
+  }
+@media (max-width: 720px){
+  .services-grid{
+    grid-template-columns:1fr;
+    justify-items:center;
+  }
+
+  .partner-actions{
+    flex-direction:column;
+  }
+
+  .partner-actions .btn-whatsapp,
+  .partner-actions .btn-instagram{
+    width:100%;
+    max-width:100%;
+  }
+}
+}@media (max-width: 720px){
+  .service-card{
+    max-width:100% !important;
+    width:100% !important;
+    margin:0 !important;
+  }
+}
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="container nav">
+      <a href="#inicio" class="brand" aria-label="JR Espaço da Beleza">
+        <div class="brand-mark">JR</div>
+        <div class="brand-text">
+          <strong>JR Espaço da Beleza</strong>
+          <span>Beleza • Elegância • Cuidado</span>
+        </div>
+      </a>
+
+      <nav class="nav-links">
+        <a href="#sobre">Sobre</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#transformacoes">Transformações</a>
+        <a href="#videos">Vídeos</a>
+        <a href="#curso">Cursos</a>
+        <a href="#contato" class="nav-cta">Agendar</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" id="inicio">
+    <div class="container">
+      <div class="hero-content">
+        <span class="eyebrow">Especialista em beleza em Igarapé - MG</span>
+
+       <h1>
+  Realçando <br> ainda mais,<br>
+  a beleza que existe em você 
+  <span class="emoji">✨</span>
+</h1>
+
+        <p>
+          Atendimento profissional em um espaço elegante, acolhedor e pensado para mulheres que desejam se sentir ainda mais bonitas,
+          confiantes e bem cuidadas em cada detalhe.
+        </p>
+
+        <div class="hero-actions">
+  <a class="btn" href="https://wa.me/5531997815517?text=Olá,%20vim%20pelo%20site%20e%20quero%20agendar%20um%20horário.">
+    Agendar pelo WhatsApp
+  </a>
+
+  <a class="btn-instagram" href="https://www.instagram.com/jr_espaco" target="_blank">
+    Ver Instagram
+  </a>
+
+  <a class="btn-secondary" href="#transformacoes">
+    Ver resultados
+  </a>
+        </div>
+
+        <div class="hero-trust">
+          <span>Ambiente acolhedor e sofisticado</span>
+          <span>Resultados reais e elegantes</span>
+          <span>Atendimento com atenção aos detalhes</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="intro-cards">
+    <div class="container">
+      <div class="intro-grid">
+        <div class="intro-card">
+          <strong>Transformação com identidade</strong>
+          <p>Procedimentos pensados para realçar a beleza natural de cada cliente com elegância.</p>
+        </div>
+
+        <div class="intro-card">
+          <strong>Experiência premium</strong>
+          <p>Um espaço claro, aconchegante e sofisticado para quem deseja ser atendida com excelência.</p>
+        </div>
+
+        <div class="intro-card">
+          <strong>Contato rápido</strong>
+          <p>Site estratégico para facilitar o agendamento e levar a cliente direto para o WhatsApp.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="sobre">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Sobre o profissional</span>
+        <h2>História, superação e paixão por transformar vidas através da beleza</h2>
+        <p>
+          Muito além do serviço, o JR Espaço da Beleza entrega cuidado, confiança e uma experiência pensada para fazer cada cliente se sentir especial.
+        </p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-image-wrap">
+          <img class="about-image" src="proprietario.JPEG" alt="Jhaymes Ronald, profissional do JR Espaço da Beleza" />
+          <div class="about-badge">
+            <strong>Atendimento com propósito</strong>
+            <p>Cuidado, técnica e dedicação em cada transformação.</p>
+          </div>
+        </div>
+
+        <div class="about-content">
+          <p>
+            Jhaymes Ronald é o profissional por trás do JR Espaço da Beleza. Com dedicação à área da beleza e transformação capilar,
+            construiu um espaço reconhecido pelo cuidado com cada cliente e pelos resultados naturais, sofisticados e elegantes.
+          </p>
+
+          <p>
+            Durante sua trajetória, enfrentou um grande desafio ao ser diagnosticado com câncer. Após um período de tratamento e superação,
+            retornou ainda mais determinado a continuar transformando vidas por meio da beleza e da autoestima.
+          </p>
+
+          <p>
+            Hoje, o JR Espaço da Beleza é referência em transformação capilar em Igarapé e também se tornou um espaço de aprendizado
+            para novos profissionais que desejam evoluir na área.
+          </p>
+
+          <div class="about-highlights">
+            <div class="highlight-box">
+              <strong>Atendimento humanizado</strong>
+              <p>Escuta, atenção e cuidado para entender o que cada cliente realmente deseja.</p>
+            </div>
+
+            <div class="highlight-box">
+              <strong>Resultado com sofisticação</strong>
+              <p>Técnicas modernas para entregar um visual bonito, harmônico e valorizado.</p>
+            </div>
+
+            <div class="highlight-box">
+              <strong>Ambiente acolhedor</strong>
+              <p>Um espaço que transmite conforto, leveza e uma experiência agradável do início ao fim.</p>
+            </div>
+
+            <div class="highlight-box">
+              <strong>Autoridade na área</strong>
+              <p>Experiência prática e compromisso real com qualidade, evolução e excelência.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="servicos">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Serviços</span>
+        <h2>Especialidades pensadas para valorizar sua beleza com elegância</h2>
+        <p>
+        
+        </p>
+      </div>
+
+      <div class="services-grid">
+        <article class="service-card">
+          <img src="cabelo-especialidade.jpg" alt="Serviço de transformação capilar e loiros" />
+          <h3>Transformação Capilar</h3>
+          <p>
+            Loiros, mechas, correção de cor, corte feminino e finalização com foco em brilho, leveza, sofisticação e valorização da sua beleza.
+          </p>
+          <ul>
+            <li>Loiros e mechas com acabamento elegante</li>
+            <li>Correção de cor e revitalização</li>
+            <li>Finalização profissional com movimento</li>
+          </ul>
+        </article>
+
+        <article class="service-card">
+          <img src="sobrancelha-especialidade.jpg" alt="Serviço de design de sobrancelhas" />
+          <h3>Micropigmentação de Sobrancelhas</h3>
+<p>
+  Técnica que valoriza o formato das sobrancelhas com efeito mais definido, harmônico e natural, realçando a expressão do rosto com elegância.
+</p>
+<ul>
+  <li>Sobrancelhas mais definidas e harmônicas</li>
+  <li>Efeito natural e sofisticado</li>
+  <li>Valorização do olhar com mais expressão</li>
+</ul>
+        </article>
+
+        <article class="service-card">
+          <img src="microlabial-especialidade.jpg" alt="Serviço de microlabial" />
+          <h3>Microlabial</h3>
+          <p>
+            Realce suave e sofisticado da tonalidade dos lábios, deixando a aparência mais bonita, uniforme e naturalmente valorizada.
+          </p>
+          <ul>
+            <li>Aspecto mais vivo e uniforme</li>
+            <li>Valorização delicada dos lábios</li>
+            <li>Resultado sutil e elegante</li>
+          </ul>
+        </article>
+      <article class="service-card">
+  <img src="unha.jpg" alt="Serviço de unhas" />
+  <h3>Nail Design</h3>
+  <p>
+    Serviços de unhas com acabamento sofisticado, cuidado nos detalhes e resultados que valorizam ainda mais sua beleza.
+  </p>
+
+  <div class="partner-actions">
+   <a class="btn-whatsapp" href="https://wa.me/5531971147167?text=Olá,%20vim%20pelo%20site%20do%20JR%20Espaço%20da%20Beleza%20e%20quero%20saber%20mais%20sobre%20unhas.">
+  WhatsApp
+</a>
+
+    <a class="btn-instagram" href="https://www.instagram.com/mariaisabelle__nails" target="_blank">
+      Instagram
+    </a>
+  </div>
+</article>
+
+<article class="service-card">
+  <img src="cilios.jpg" alt="Serviço de cílios e sobrancelhas" />
+  <h3>Cílios e Sobrancelhas</h3>
+  <p>
+    Realce do olhar com técnicas modernas e acabamento delicado, trazendo mais expressão e elegância para o seu rosto.
+  </p>
+
+  <div class="partner-actions">
+    <a class="btn-whatsapp" href="https://wa.me/5531999941843?text=Olá,%20vim%20pelo%20site%20do%20JR%20Espaço%20da%20Beleza%20e%20quero%20saber%20mais%20sobre%20cílios%20e%20sobrancelhas.">
+      WhatsApp
+    </a>
+
+    <a class="btn-instagram" href="https://www.instagram.com/studio__leticiaduarte" target="_blank">
+      Instagram
+    </a>
+  </div>
+</article>
+      </div>
+
+      <div class="cta-strip">
+        <div>
+          <h3>Quer viver sua transformação?</h3>
+          <p>
+            Fale agora pelo WhatsApp e tire dúvidas, consulte disponibilidade e agende seu atendimento com mais facilidade.
+          </p>
+        </div>
+
+        <a class="btn" href="https://wa.me/5531997815517?text=Olá,%20vim%20pelo%20site%20e%20quero%20agendar%20um%20horário.">
+          Falar no WhatsApp
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="transformacoes">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Transformações</span>
+        <h2>Resultados reais que reforçam confiança e desejo de agendar</h2>
+        <p>
+          Clique em uma imagem para ampliar. Dentro da visualização, você poderá navegar pelo antes e depois de cada transformação.
+        </p>
+      </div>
+
+      <div class="gallery-grid">
+        <figure class="gallery-item" onclick="openLightbox(0)">
+          <img src="depois1.png" alt="Resultado final da transformação 01" />
+          <figcaption class="gallery-caption">
+            <strong>Transformação 01</strong>
+            <span>Clique para ver o antes e depois</span>
+          </figcaption>
+        </figure>
+
+        <figure class="gallery-item" onclick="openLightbox(2)">
+          <img src="depois2.png" alt="Resultado final da transformação 02" />
+          <figcaption class="gallery-caption">
+            <strong>Transformação 02</strong>
+            <span>Clique para ver o antes e depois</span>
+          </figcaption>
+        </figure>
+
+        <figure class="gallery-item" onclick="openLightbox(4)">
+          <img src="depois3.png" alt="Resultado final da transformação 03" />
+          <figcaption class="gallery-caption">
+            <strong>Transformação 03</strong>
+            <span>Clique para ver o antes e depois</span>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="videos">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Vídeos</span>
+        <h2>Brilho, movimento e resultado ao vivo</h2>
+        <p>
+       
+        </p>
+      </div>
+
+      <div class="videos-grid">
+        <div class="video-card">
+          <video controls preload="metadata">
+            <source src="videos/video1.mp4" type="video/mp4" />
+          </video>
+        </div>
+
+        <div class="video-card">
+          <video controls preload="metadata">
+            <source src="videos/video2.mp4" type="video/mp4" />
+            Seu navegador não suporta vídeo.
+          </video>
+        </div>
+
+        <div class="video-card">
+          <video controls preload="metadata">
+            <source src="videos/video3.mp4" type="video/mp4" />
+            Seu navegador não suporta vídeo.
+          </video>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="curso">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Formação profissional</span>
+        <h2>Além de transformar clientes, também formamos profissionais</h2>
+        <p>
+        
+        </p>
+      </div>
+
+      <div class="course-grid">
+        <img src="alunas.jpg" alt="Curso presencial com alunas no JR Espaço da Beleza" />
+
+        <div class="course-content">
+          <h3>Ensino com prática real e acompanhamento profissional</h3>
+
+          <p>
+            Além do atendimento no salão, Jhaymes também realiza cursos presenciais para profissionais que desejam aprender técnicas modernas,
+            ganhar mais segurança e elevar a qualidade do seu trabalho.
+          </p>
+
+          <p>
+            O foco é unir técnica, prática e direcionamento para que cada aluno se desenvolva com confiança e se destaque no mercado.
+          </p>
+
+          <ul class="course-points">
+            <li>Conteúdo prático e atualizado</li>
+            <li>Acompanhamento profissional</li>
+            <li>Mais segurança para atender melhor</li>
+            <li>Aprendizado voltado para resultado real</li>
+          </ul>
+
+          <a class="btn" href="https://wa.me/5531997815517?text=Olá,%20vim%20pelo%20site%20e%20quero%20saber%20mais%20sobre%20os%20cursos.">
+            Quero saber sobre os cursos
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contato">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Contato</span>
+        <h2>Agende seu horário e fale diretamente pelo WhatsApp</h2>
+        <p>
+         
+        </p>
+      </div>
+
+      <div class="contact-wrap">
+        <div class="contact-card">
+          <h3>Pronta para se sentir ainda mais linda?</h3>
+          <p>
+            Entre em contato agora mesmo para tirar dúvidas, consultar disponibilidade e agendar seu atendimento no JR Espaço da Beleza.
+          </p>
+
+          <ul class="contact-list">
+            <li><strong>WhatsApp:</strong> (31) 99781-5517</li>
+            <strong>Endereço:</strong> Rua Cristiano Machado, 435 – Centro</li>
+            <li><strong>Cidade:</strong> Igarapé – MG</li>
+          </ul>
+
+          <div class="contact-actions">
+  <a class="btn" href="https://wa.me/5531997815517?text=Olá,%20vim%20pelo%20site%20e%20quero%20agendar%20um%20horário.">
+    Agendar agora
+  </a>
+
+  <a class="btn-secondary" href="#servicos" style="color:#5f4737;border-color:rgba(184,138,74,.16);background:#fff3e5;">
+    Ver serviços
+  </a>
+
+  <a class="btn-instagram" href="https://www.instagram.com/jr_espaco" target="_blank">
+    Ver no Instagram
+  </a>
+</div>
+        </div>
+
+        <div class="contact-info">
+          <h3>Atendimento com conforto e elegância</h3>
+
+          <div class="info-box">
+            <strong>Experiência do início ao fim</strong>
+            <p>Um atendimento pensado para unir beleza, leveza, sofisticação e atenção aos detalhes.</p>
+          </div>
+
+          <div class="info-box">
+            <strong>Localização fácil</strong>
+            <p>Endereço já destacado para facilitar a decisão da cliente e diminuir atrito na hora do contato.</p>
+          </div>
+
+          <div class="info-box">
+            <strong>Canal principal de conversão</strong>
+            <p>O WhatsApp foi mantido como foco principal para aumentar a chance de resposta rápida e fechamento.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container footer-wrap">
+      <div class="footer-brand">JR Espaço da Beleza</div>
+      <div class="footer-copy">© 2026 JR Espaço da Beleza • Todos os direitos reservados.</div>
+    </div>
+  </footer>
+
+  <a
+    class="whatsapp-float"
+    href="https://wa.me/5531997815517?text=Olá,%20vim%20pelo%20site%20e%20quero%20agendar%20um%20horário."
+    aria-label="Falar no WhatsApp"
+    title="Falar no WhatsApp"
+  >
+    ✆
+  </a>
+
+  <div class="lightbox" id="lightbox">
+    <div class="lightbox-content">
+      <button class="lightbox-close" onclick="closeLightbox()" aria-label="Fechar">✕</button>
+      <button class="lightbox-btn prev" onclick="prevImage()" aria-label="Imagem anterior">❮</button>
+      <img id="lightbox-image" src="" alt="Imagem ampliada da transformação" />
+      <button class="lightbox-btn next" onclick="nextImage()" aria-label="Próxima imagem">❯</button>
+      <div class="lightbox-label" id="lightbox-label"></div>
+    </div>
+  </div>
+
+  <script>
+    const galleryImages = [
+      { src: 'antes1.png', label: 'Transformação 01 · Antes' },
+      { src: 'depois1.png', label: 'Transformação 01 · Depois' },
+      { src: 'antes2.png', label: 'Transformação 02 · Antes' },
+      { src: 'depois2.png', label: 'Transformação 02 · Depois' },
+      { src: 'antes3.png', label: 'Transformação 03 · Antes' },
+      { src: 'depois3.png', label: 'Transformação 03 · Depois' }
+    ];
+
+    let currentImageIndex = 0;
+
+    function openLightbox(index) {
+      currentImageIndex = index;
+      updateLightbox();
+      document.getElementById('lightbox').classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeLightbox() {
+      document.getElementById('lightbox').classList.remove('active');
+      document.body.style.overflow = '';
+    }
+
+    function updateLightbox() {
+      const image = document.getElementById('lightbox-image');
+      const label = document.getElementById('lightbox-label');
+
+      image.src = galleryImages[currentImageIndex].src;
+      label.textContent = galleryImages[currentImageIndex].label;
+    }
+
+    function nextImage() {
+      currentImageIndex = (currentImageIndex + 1) % galleryImages.length;
+      updateLightbox();
+    }
+
+    function prevImage() {
+      currentImageIndex = (currentImageIndex - 1 + galleryImages.length) % galleryImages.length;
+      updateLightbox();
+    }
+
+    document.getElementById('lightbox').addEventListener('click', function(e) {
+      if (e.target.id === 'lightbox') {
+        closeLightbox();
+      }
+    });
+
+    document.addEventListener('keydown', function(e) {
+      const lightbox = document.getElementById('lightbox');
+      if (!lightbox.classList.contains('active')) return;
+
+      if (e.key === 'Escape') closeLightbox();
+      if (e.key === 'ArrowRight') nextImage();
+      if (e.key === 'ArrowLeft') prevImage();
+    });
+  </script>
+</body>
+</html>
